@@ -1,0 +1,25 @@
+# ============================================================
+# ALD & Associates — Netlify redirects
+# ============================================================
+
+# Pretty URLs — accept both /policies-procedures and /policies-procedures.html
+# (pretty_urls in netlify.toml already handles the .html stripping,
+#  these are additional safety nets and legacy WordPress URL redirects.)
+
+# Legacy WordPress URL patterns (old site likely used /about-us/, /services/, etc.)
+/about-us            /#leadership              301
+/about-us/           /#leadership              301
+/services            /#services                301
+/services/           /#services                301
+/contact             /#contact                 301
+/contact/            /#contact                 301
+
+# Capability statement — short URL
+/capability-statement       https://ald-associates.com/wp-content/uploads/2026/05/ALD-Capability-Statement.pdf       301
+
+# Catalog — short URL
+/catalog                    /training-catalog.pdf                                                                    301
+/training                   /training-programs                                                                       301
+
+# 404 fallback (Netlify uses 404.html automatically; this is explicit)
+/*                          /404.html                                                                                404

@@ -1,0 +1,61 @@
+# ============================================================
+# ALD & Associates — Netlify deployment configuration
+# ============================================================
+
+[build]
+  publish = "."
+
+# Pretty URLs: strip .html from URLs
+# /policies-procedures.html → /policies-procedures
+[build.processing]
+  skip_processing = false
+
+[build.processing.html]
+  pretty_urls = true
+
+# ============================================================
+# SECURITY HEADERS — applied site-wide
+# ============================================================
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+
+# ============================================================
+# CACHING — long for assets, short for HTML
+# ============================================================
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/favicon*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, must-revalidate"
+
+[[headers]]
+  for = "/og-image.png"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/training-catalog.pdf"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+    Content-Disposition = "inline"
+
+# ============================================================
+# REDIRECTS — clean canonical URLs
+# ============================================================
+# Force www (uncomment after confirming domain)
+# [[redirects]]
+#   from = "https://ald-associates.com/*"
+#   to = "https://www.ald-associates.com/:splat"
+#   status = 301
+#   force = true

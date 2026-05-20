@@ -1,0 +1,22 @@
+# Secondary headers config — works with netlify.toml as a backup spec
+# (Netlify accepts both; if there's a conflict, netlify.toml wins.)
+
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/favicon*.png
+  Cache-Control: public, max-age=604800
+
+/og-image.png
+  Cache-Control: public, max-age=604800
+
+/training-catalog.pdf
+  Cache-Control: public, max-age=86400
+  Content-Disposition: inline

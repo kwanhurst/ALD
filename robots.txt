@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+
+# AI training bots — explicit decisions
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://www.ald-associates.com/sitemap.xml
