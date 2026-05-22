@@ -224,41 +224,30 @@ body.menu-open{overflow:hidden}
     <div class="breadcrumb">
       <a href="index.html">Home</a>
       <span class="sep">/</span>
-      <a href="index.html#services">Practices</a>
-      <span class="sep">/</span>
-      <span class="current">Team Development</span>
+      <span class="current">Insights</span>
     </div>
-    <h1>Build the team your mission <em>requires.</em></h1>
-    <p class="hero-sub">Team chartering, team coaching, and team dynamics work that turns groups of capable individuals into high-performing operating units.</p>
-    <a href="index.html#contact" class="btn-primary">Schedule a briefing on this practice &rarr;</a>
+    <h1>Insights & <em>Resources</em></h1>
+    <p class="hero-sub">Perspectives, frameworks, and field-tested tools for leaders and organizations navigating consequential change.</p>
   </div>
 </header>
-
-<section class="intro-block">
-  <div class="container">
-    <p class="intro-text">A team is not a collection of people who share a manager. It&rsquo;s a structured operating unit with shared purpose, complementary roles, and the discipline to navigate conflict productively. Most teams in most organizations are not actually teams, they&rsquo;re working groups. Our practice builds the difference.</p>
-  </div>
-</section>
 
 <section>
   <div class="container">
     <div class="section-header reveal">
-      <div class="section-eyebrow"><span class="line"></span>Capabilities</div>
-      <h2 class="section-title">What we <em>actually</em> deliver.</h2>
-      <p class="section-intro">Eight distinct capabilities. Every engagement is sized and configured to your context, never a templated rollout.</p>
+      <div class="section-eyebrow"><span class="line"></span>LEADER DEVELOPMENT RESOURCES</div>
     </div>
     <div class="caps-grid">
         <div class="cap-card">
           <div class="cap-num">1</div>
-          <h3 class="cap-name">Team Chartering</h3>
+          <h3 class="cap-name">Refresh & Reset Leader Guide</h3>
           <p class="cap-desc">Purpose, roles, decision rights, and operating norms, documented and adopted, not just discussed.</p>
         </div>
         <div class="cap-card">
           <div class="cap-num">2</div>
-          <h3 class="cap-name">Team Coaching Engagements</h3>
-          <p class="cap-desc">Structured coaching of intact teams over a defined arc, not one-off retreats.</p>
+          <h3 class="cap-name">More Resources Coming Soon</h3>
+          <p class="cap-desc">Newsletter resources coming soon.</p>
         </div>
-        <div class="cap-card">
+       <!-- <div class="cap-card">
           <div class="cap-num">3</div>
           <h3 class="cap-name">Conflict Resolution Frameworks</h3>
           <p class="cap-desc">Structured approaches to surface, name, and resolve the conflicts most teams avoid until they break.</p>
@@ -287,99 +276,7 @@ body.menu-open{overflow:hidden}
           <div class="cap-num">8</div>
           <h3 class="cap-name">Team Transition Support</h3>
           <p class="cap-desc">Onboarding new team members, navigating leadership changes, and rebuilding after significant turnover.</p>
-        </div>
-    </div>
-  </div>
-</section>
-
-<section class="approach-section">
-  <div class="container">
-    <div class="section-header reveal">
-      <div class="section-eyebrow"><span class="line"></span>How We Work</div>
-      <h2 class="section-title">Our methodology, applied to <em>this</em> practice.</h2>
-    </div>
-    <div class="approach-grid">
-        <div class="approach-item reveal">
-          <div class="approach-num">1</div>
-          <h3 class="approach-title">Diagnose</h3>
-          <p class="approach-desc">Listen to the whole team, observe how it actually operates, identify the structural and relational issues holding it back.</p>
-        </div>
-        <div class="approach-item reveal">
-          <div class="approach-num">2</div>
-          <h3 class="approach-title">Design</h3>
-          <p class="approach-desc">Charter, operating norms, decision-rights architecture, and the cadence to sustain them, co-created with the team.</p>
-        </div>
-        <div class="approach-item reveal">
-          <div class="approach-num">3</div>
-          <h3 class="approach-title">Deliver</h3>
-          <p class="approach-desc">Multi-session engagement to install the new operating system. Real work, real conflict, real practice, not just frameworks.</p>
-        </div>
-        <div class="approach-item reveal">
-          <div class="approach-num">4</div>
-          <h3 class="approach-title">Sustain</h3>
-          <p class="approach-desc">Quarterly health checks, team coaching follow-ups, and the playbook your team leader can run independently.</p>
-        </div>
-    </div>
-  </div>
-</section>
-
-<section class="case">
-  <div class="container">
-    <div class="section-header reveal">
-      <div class="section-eyebrow"><span class="line"></span>Featured Engagement</div>
-      <h2 class="section-title">Executive team development for a national healthcare system</h2>
-    </div>
-    <div class="case-inner">
-      <div class="reveal">
-        <p class="case-quote">Our executive team had been together for five years and we still didn&rsquo;t actually function as a team. ALD diagnosed exactly what was happening, and then they did the harder work of helping us see it ourselves. We don&rsquo;t agree more often now. We just disagree better.</p>
-        <div class="case-attr">
-          <div class="case-attr-name">Chief Executive Officer</div>
-          <div class="case-attr-role">Regional healthcare system &middot; Engagement reference available under NDA</div>
-        </div>
-      </div>
-      <div class="case-meta reveal">
-          <div class="case-meta-row"><div class="case-meta-label">Scope</div><div class="case-meta-value">Executive team coaching</div></div>
-          <div class="case-meta-row"><div class="case-meta-label">Team Size</div><div class="case-meta-value">11-person C-suite</div></div>
-          <div class="case-meta-row"><div class="case-meta-label">Duration</div><div class="case-meta-value">12-month engagement</div></div>
-          <div class="case-meta-row"><div class="case-meta-label">Outcome</div><div class="case-meta-value">Restored team operating system</div></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container">
-    <div class="section-header reveal">
-      <div class="section-eyebrow"><span class="line"></span>Related Practices</div>
-      <h2 class="section-title">Our work is <em>integrated.</em></h2>
-      <p class="section-intro">Most engagements span more than one practice. Explore how this work connects to the rest.</p>
-    </div>
-    <div class="related-grid">
-        <a href="policies-procedures.html" class="related-card">
-          <div class="related-num">Practice 1</div>
-          <h3 class="related-title">Policies &amp; Procedures</h3>
-          <span class="related-arrow">&rarr;</span>
-        </a>
-        <a href="program-management.html" class="related-card">
-          <div class="related-num">Practice 2</div>
-          <h3 class="related-title">Program Management</h3>
-          <span class="related-arrow">&rarr;</span>
-        </a>
-        <a href="leader-development.html" class="related-card">
-          <div class="related-num">Practice 4</div>
-          <h3 class="related-title">Leader Development</h3>
-          <span class="related-arrow">&rarr;</span>
-        </a>
-        <a href="strategic-planning.html" class="related-card">
-          <div class="related-num">Practice 5</div>
-          <h3 class="related-title">Strategic Planning</h3>
-          <span class="related-arrow">&rarr;</span>
-        </a>
-        <a href="training-programs.html" class="related-card">
-          <div class="related-num">Practice 6</div>
-          <h3 class="related-title">Training Programs</h3>
-          <span class="related-arrow">&rarr;</span>
-        </a>
+        </div>-->
     </div>
   </div>
 </section>
